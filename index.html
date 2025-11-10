@@ -7,7 +7,8 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <!-- Use Vite's %BASE% so the script path respects `base` from vite.config.ts -->
+    <script type="module" src="%BASE%src/main.tsx"></script>
   </body>
 </html>
 
